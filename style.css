@@ -1,0 +1,102 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: rgb(41, 153, 116);
+}
+h1{
+  font-size: 30px;
+}
+section {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 10rem;
+  width: 100%;
+  text-align: center;
+  /* font-family: "Permanent Marker", cursive; */
+}
+
+.game--status{
+    
+}
+.game--title{
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+  background-color: rgb(127, 255, 212);
+}
+
+.cell {
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+p{
+  font-size: 30px;
+ 
+}
+.Placar {
+  border-collapse: collapse;
+  width: 400px;
+  margin: 0 auto;
+  border: none;
+  height: 10px;
+}
+
+.Placar tr {
+  text-align: center;
+  border: none;
+}
+
+.Placar td {
+  padding: 1px;
+  border: 1px solid #000;
+  border: none;
+}
+
+/* Estilo para as células com classe X */
+.X {
+  /* background-color: #FF5733; */
+  color: #FFF;
+}
+
+/* Estilo para as células com classe O */
+.O {
+  /* background-color: #33B5E5; */
+  color: #FFF;
+}
+
+/* Estilo para a célula do placar */
+.placar {
+  background-color: #333;
+  color: #FFF;
+}
+
+button{
+  background-color: blue;
+  font-size: 18px;
+  border-radius: 2PX;
+  border: NONE;
+  padding: 8px;
+}
+
+button:HOVER{
+  background-color: rgb(157, 255, 0);
+  font-size: 18px;
+  border-radius: 2PX;
+  cursor: pointer;
+}
